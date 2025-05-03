@@ -42,7 +42,7 @@
   
   .hero {
     background: url("../img/gimnasio.jpg") center/cover no-repeat;
-    color: #083d77;
+    color: white;
     text-align: center;
     padding: 4rem 2rem;
   }
@@ -134,5 +134,5 @@
     color: #083d77;
     text-decoration: none;
     font-weight: bold;
-  }
+  } 
   
