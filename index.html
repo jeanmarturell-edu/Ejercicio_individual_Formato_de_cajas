@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gimnasio PowerFit</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>PowerFit</h1>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Planes</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h2>Entrená con los mejores</h2>
+      <p>Elegí tu plan y horario. ¡Empezá hoy!</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="registro">
+      <h2>Formulario de Registro</h2>
+      <form action="gracias.html" method="GET">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="plan">Tipo de plan</label>
+        <select id="plan" name="plan" required>
+          <option value="">-- Seleccioná un plan --</option>
+          <option value="basico">Básico</option>
+          <option value="intermedio">Intermedio</option>
+          <option value="premium">Premium</option>
+        </select>
+
+        <label for="horario">Horario preferido</label>
+        <select id="horario" name="horario" required>
+          <option value="">-- Seleccioná un horario --</option>
+          <option value="mañana">Mañana (6 a 10 hs)</option>
+          <option value="tarde">Tarde (12 a 16 hs)</option>
+          <option value="noche">Noche (18 a 22 hs)</option>
+        </select>
+
+        <button type="submit">Registrarme</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 PowerFit Gym - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
